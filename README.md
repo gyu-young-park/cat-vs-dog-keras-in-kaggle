@@ -7,8 +7,8 @@ kaggle에서 데이터를 사용해주시기 바랍니다.
 https://www.kaggle.com/c/dogs-vs-cats/data   
 
 # Data Augmentation
-  image 모듈을 이용하여 ImageDataGenerator()을 사용, 데이터가 부족해 생기는 overfitting 문제를 어느정도 완화시키기 위해 사용했습니다.   
-  데이터 전처리가 완료되면.npy에 담아두었습니다. 매번 전처리하는 문제를 막고, 모든 데이터셋을 메모리에 올리는 문제를 해결하기 위해 사용했습니다.   
+  image 모듈을 이용하여 ImageDataGenerator()을 사용, 데이터가 부족해 생기는 overfitting 문제를 어느정도 완화시키기 위해 사용했습니다. 데이터 전처리가 완료되면.npy에 담아두었습니다. 매번 전처리하는 문제를 막고, 모든 데이터셋을 메모리에 올리는 문제를 해결하기 위해 사용했습니다.   
+  전처리가 끝났다면 code에서 주석처리된 부분을 쓰시면 됩니다.      
 # Checking Point
   향상된 결과를 내줄 때마다, 그 때의 가중치를 저장해 놓았습니다. 만약 향상된 결과를 내주지 않으면 결과를 저장하지 않습니다.   
 # Modeling
